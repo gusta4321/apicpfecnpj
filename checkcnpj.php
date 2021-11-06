@@ -1,6 +1,6 @@
 <?php include('valida-cnpj.php');
 
-$cnpjjson = filter_input(INPUT_GET, 'cpf', FILTER_SANITIZE_NUMBER_INT);
+$cnpjjson = filter_input(INPUT_GET, 'cnpj', FILTER_SANITIZE_NUMBER_INT);
 
 
 if ( valida_cnpj( "' $cpfcnpj();'" ) ) {
