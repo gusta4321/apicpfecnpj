@@ -3,7 +3,7 @@
 $cnpjjson = filter_input(INPUT_GET, 'cnpj', FILTER_SANITIZE_NUMBER_INT);
 
 
-if ( valida_cnpj( "' $cpfcnpj();'" ) ) {
+if ( valida_cnpj( "' $cnpjjson();'" ) ) {
     
   echo'{ "criador":"@gustavonup", "result":{ "result":"CNPJ VALIDO" } } ';
 
