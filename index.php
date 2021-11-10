@@ -1,8 +1,8 @@
-<html>
+<?php echo"API CPF E CNPJ"; ?> <html>
    <head>
     </head>
       <body>
-        <body>
+
           Use 
           Para Gerar CPF: cpf.php
           Para Gerar CNPJ: cnpj.php
